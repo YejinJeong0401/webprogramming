@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet" media="screen">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>프로젝트: 반응형 웹 페이지 제작</title>
+    <title>샴고양이의 특징</title>
 </head>
 <body>
-    <!-- Header: 메뉴 -->
-    <div id="header">
-        <label for="toggle">MENU</label>
-        <input type="checkbox" id="toggle">
-        <ul id="nav">
-            <li><a href="#"> 우리독도 </a></li>
-            <li><a href="#"> 자연관 </a></li>
-            <li><a href="#"> 역사관 </a></li>
+    <header>
+        <h1>샴고양이의 특징</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#appearance">외모</a></li>
+            <li><a href="#personality">성격</a></li>
+            <li><a href="#health">건강</a></li>
         </ul>
-    </div>
-    <!-- Contents: 본문 -->    
-    <div id="contents">
-        <h2>태고의 신비를 간직하고 있는 독도의 자연을 소개해 드립니다.</h2>
-        <h2>대한민국의 아름다운 섬, 독도</h2>
-        <img src="dokdo1.jpeg" alt="독도 이미지 1">    
-        <h3>기온과 강수량</h3>
-        <p>독도의 기후는 난류의 영향을 많이 받는 전형적인 해양성 기후로 연평균기온이 12.4℃, 가장 추운 1월 평균기온이 1℃, 가장 더운 8월 평균기온이 23℃로 비교적 온난한 편이다. 바람이 많은 독도의 연평균 풍속은 4.3m/s로 남서풍이 우세한 반면 겨울에는 북동풍이 우세를 보이고 있다.</p>
-        <p>독도는 안개가 잦고 연중 흐린 날이 160일 이상이며 강우일수는 150일 정도로 연중 85%가 흐리거나 눈˙비가 내려 비교적 습한 지역이다. 연평균 강수량은 1,383.4mm, 겨울철 강수는 대부분 적설 형태이며 폭설이 많이 내리는 것이 특징이다.</p>
-        <img src="dokdo2.jpeg" alt="독도 이미지 2">    
-        <br>
-    </div>
-    <!-- Footer: 저작권정보 -->
-    <div id="footer">
-        Copyright by 손에 잡히는 프로그래밍(웹) / Gachon University. All rights reserved.
-    </div>
+    </nav>
+    <main>
+        <section id="appearance" class="feature">
+            <h2>외모</h2>
+            <img src="siamcat2.jpg" alt="샴고양이 이미지">
+            <p>샴고양이는 날씬하고 우아한 몸매를 가지고 있으며, 큰 귀와 파란 눈이 특징입니다. 털은 짧고 부드러우며, 얼굴, 귀, 발, 꼬리 끝이 어두운 색을 띕니다.</p>
+        </section>
+        <section id="personality" class="feature">
+            <h2>성격</h2>
+            <p>샴고양이는 매우 사회적이고 외향적인 성격을 가지고 있습니다. 주인에게 강한 애착을 가지며, 말을 많이 하고 호기심이 많습니다.</p>
+        </section>
+        <section id="health" class="feature">
+            <h2>건강</h2>
+            <p>샴고양이는 일반적으로 건강한 편이지만, 치아 문제나 호흡기 질환에 취약할 수 있습니다. 정기적인 건강 검진이 필요합니다.</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 샴고양이 정보
+    </footer>
 </body>
 </html>
